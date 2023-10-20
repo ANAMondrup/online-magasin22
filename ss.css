@@ -1,0 +1,474 @@
+/*--- her starter forsiden ---- */
+body {
+    background-image: url("bgfoto.png");
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* ---- menu starter her ----- */
+
+.page_dropdown{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.page_dropdown ul, .page_dropdown li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.page_dropdown ul {
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page_dropdown li {
+    float:inline-start;
+    position:relative;
+    width: auto;
+    color: #ffffff;
+    display: block;
+    text-align: left;
+    margin-top: 7px;
+    
+    
+}
+
+.page_dropdown a {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    display:block;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 70px 15px;
+    text-align: center;
+    text-decoration:none;
+    transition: all 0.25s ease;
+}
+
+.page_dropdown li:hover a{
+    background: #0c0c0c00 ;
+}
+
+.submenu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu {
+    opacity: 1;
+    top: 46px;
+    visibility: visible
+}
+
+.submenu li{
+    float: none;
+    width: 100%;
+}
+
+.submenu a:hover{
+    background: #00000000;
+    right: -90px;
+}
+
+.submenu{
+    flex-direction: column;
+    text-align: center;
+}
+
+.submenu a {
+    background-color: rgba(4, 4, 4, 0);
+}
+/* ---- menu slutter her ----- */
+
+/*---- image start--- */
+
+.mwscene {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-left: 350px;
+    max-width: 50%;
+}
+
+h3{
+    color: #ffffff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+h5 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 350px;
+    max-width: 50%;
+    line-height: 1.5;
+    
+}
+
+.mwtext {
+    border:1px solid white;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    line-height: 1.5;
+    background: black;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    line-height: 1.5;
+    background: black;
+    margin-left: 350px;
+    max-width: 50%;
+}
+
+
+@media screen {
+    .top_head {
+        margin-bottom: -250px;
+    }
+    
+}
+
+/*--- her slutter forsiden ---- */
+
+/* ---- her starter events siden ----- */
+
+
+.image_places .image_p {
+    float: left;
+    width: 23.3%;
+    padding: 5px;
+    align-items: center;
+    margin-top: 15px;
+    background: #ffffff00;
+    justify-content: space-evenly;
+}
+.con4tainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+h6 {
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    line-height: 1.5;
+    background: black;
+}
+
+/* ---- her slutter events siden ----- */
+
+
+/* ---- her starter kontakt siden ----- */
+
+
+.news {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+* {
+    background: #00000000;
+}
+
+
+.kontakt22 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding: 10px;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 2.5;
+    
+}
+
+.kontakt2 {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background: #3c5056;
+    background-size: cover;
+    padding: 100px 40px;
+    text-align: center;
+    color: black;
+}
+
+.container p {
+    max-width: 400px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-weight: 300;
+    background: #3c5056;
+    
+}
+
+.kontakt {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* --- middle line starts --- */
+
+.vertical {
+    border-left: 2px solid black;
+    height: 300px;
+    position: absolute;
+    left: 740px;
+}
+
+/* --- middle line ends --- */
+
+/* --- her starter newsletter box --- */
+
+.email-box {
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+}
+
+.email-box i {
+    background: #000000;
+    width: 40px;
+    line-height: 40px;
+}
+
+.tbox, .btn {
+    border: none;
+    outline: none;
+}
+
+.tbox {
+    width: 0;
+    transition: 0.6s;
+}
+
+.email-box:hover > .tbox, .tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+
+/* --- her slutter newsletter box --- */
+
+
+/* --- Page footer starts --- */
+
+.page_footer_side2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15.625rem;
+    background: #3c5056;
+}
+
+.page_footer_kontakt {
+   justify-content: left;
+}
+
+.page_footer_section {
+    margin-bottom: 200px;
+    margin-left: 50px;
+    background: #3c5056;
+}
+
+
+@media only screen and (min-width: 30rem) {
+    .page_footer_side2 {
+        flex-direction: row;
+        height: 12.5rem;
+    }
+
+    .page_footer_section {
+        height: 10rem;
+        flex-direction: row;
+    }
+
+    .someimg {
+        height: 1.3rem;
+        
+    }
+}
+
+@media screen {
+    .name {
+        margin-top: 0px;
+    }
+}
+
+/* ---- her slutter events siden ----- */
+
+
+/* ---- her starter artist siden ----- */
+
+.container3 {
+    align-items: center;
+    max-width: 100px;
+    width: 95%;
+    padding: 0 10px;
+    
+}
+
+
+.slide-wrapper {
+    position: relative;
+}
+
+/* --- slide button start --- */
+
+.slide-wrapper .slide-button {
+    position:absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    color: #f3f3f3;
+    border: none;
+    outline: none;
+    background: #ffffff;
+    font-size: 2.2rem;
+    cursor: pointer;  
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slide-wrapper .slide-button:hover {
+    background: rgb(255, 255, 255);
+}
+
+.slide-wrapper {
+    right: 200px;
+    margin-left: 20px;
+
+}
+
+
+
+.slide-wrapper .image-list {
+    grid-template-columns:repeat(10, 1fr);
+    display: flex;
+    height: 100%;
+    gap: 18px;
+    margin-bottom: 50px;
+
+ 
+    
+}
+
+.slide-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+.slide-wrapper, .image-list .imageitem {
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+}
+
+.imageitem .image-list {
+    position: relative;
+} 
+
+.container3 .slide-scrollbar {
+    height: 24px;
+    width: 100%;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.page3_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    height: 15.625rem;
+    gap: 18px;
+}
+
+.page3_footer3 {
+    margin-top: 0;
+}
+
+
+@media only screen and (min-width:37.5rem) {
+    .page3_footer {
+        flex-direction: row;
+        justify-content: center;
+        height: 15rem;
+        width: 50px;
+    }
+
+    .page_footer_section3 {
+        height: 8.75rem;
+    }
+}
+
+
+/* --- slide img slutter --- */
